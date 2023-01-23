@@ -23,7 +23,7 @@ The pendulum simulator allows users to configure and simulate the movement of 5 
 **Getting Started**
 
 1. Ensure a MQTT broker service is running on ‘mqtt://locahost:1883’, Mosquitto MQTT broker was used during development
-2. Run start.bat file (located in ‘server’ folder)
+2. Run startup.bat file (located in ‘server’ folder)
 3. Open index.html (located in ‘client’ folder) in a browser
 
 **REST Interface**
