@@ -19,6 +19,9 @@ The pendulum simulator allows users to configure and simulate the movement of 5 
 3. Pause the simulation
 4. Stop and reset the simulation (will reset pendulums to their original properties)
 
+When a collision is close to occuring, all pendulums will freeze in place and the simulation will reset and restart after 5 seconds. 
+
+**DEFINITION: A collision is considered close contact between any two pendulum balls (not necessarily between stems).**
 
 **Getting Started**
 
