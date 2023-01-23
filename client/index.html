@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Pendulum</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>Pendulum Simulator</h1>
+        </div>
+        <div class= "container">
+          <div class="side-panel">
+            <div class="config">
+              <div class="pendulum-config">
+                  <h2 id = "blue">Blue Pendulum</h2>
+                  <br>
+                  <form>
+                  <p>Mass:</p>
+                  <input type="range" class = "mass-slider" id="8080" min="10" max="70" step="5">
+                  <span class="mass-span" id="mass-8080"></span>
+                  
+                  <br>
+                  <p>Length:</p>
+                  <input type="range" class = "length-slider" id="8080" min="50" max="400" step="50">
+                  <span class="length-span" id="length-8080"></span>
+                  
+                  <br>
+                  <p>Angle:</p>
+                  <input type="range" class = "angle-slider"id="8080" min="0" max="360" step="10" value="0">
+                  <span class="angle-span" id="angle-8080"></span>
+              </div>
+              <div class="pendulum-config">
+                  <h2 id = "orange">Orange Pendulum</h2>
+                  <br>
+                  <form>
+                  <p>Mass:</p>
+                  <input type="range" class = "mass-slider" id="8090" min="10" max="70" step="5" >
+                  <span class="mass-span" id="mass-8090"></span>
+                  
+                  <br>
+                  <p>Length:</p>
+                  <input type="range" class = "length-slider" id="8090" min="50" max="400" step="50">
+                  <span class="length-span" id="length-8090"></span>
+                  
+                  <br>
+                  <p>Angle:</p>
+                  <input type="range" class = "angle-slider"id="8090" min="0" max="360" step="10" value="0">
+                  <span class="angle-span" id="angle-8090"></span>
+                  </div>
+              <div class="pendulum-config">
+                  <h2 id = "green">Green Pendulum</h2>
+                  <br>
+                  <form>
+                  <p>Mass:</p>
+                  <input type="range" class = "mass-slider" id="9000" min="10" max="70" step="5">
+                  <span class="mass-span" id="mass-9000"></span>
+                  
+                  <br>
+                  <p>Length:</p>
+                  <input type="range" class = "length-slider" id="9000" min="50" max="400" step="50">
+                  <span class="length-span" id="length-9000"></span>
+                  
+                  <br>
+                  <p>Angle:</p>
+                  <input type="range" class = "angle-slider"id="9000" min="0" max="360" step="10" value="0">
+                  <span class="angle-span" id="angle-9000"></span>
+              </div>
+              <div class="pendulum-config">
+                  <h2 id = "purple">Purple Pendulum</h2>
+                  <br>
+                  <form>
+                  <p>Mass:</p>
+                  <input type="range" class = "mass-slider" id="9010" min="10" max="70" step="5">
+                  <span class="mass-span" id="mass-9010"></span>
+                  
+                  <br>
+                  <p>Length:</p>
+                  <input type="range" class = "length-slider" id="9010" min="50" max="400" step="50">
+                  <span  class="length-span" id="length-9010"></span>
+                  
+                  <br>
+                  <p>Angle:</p>
+                  <input type="range" class = "angle-slider"id="9010" min="0" max="360" step="10" value="0">
+                  <span class="angle-span" id="angle-9010"></span>
+              </div>
+              <div class="pendulum-config">
+                  <h2 id = "red">Red Pendulum</h2>
+                  <br>
+                  <form>
+                  <p>Mass:</p>
+                  <input type="range" class = "mass-slider" id="9020" min="10" max="70" step="5">
+                  <span class="mass-span" id="mass-9020"></span>
+                  
+                  <br>
+                  <p>Length:</p>
+                  <input type="range" class = "length-slider" id="9020" min="50" max="400" step="50">
+                  <span class="length-span" id="length-9020"></span>
+                  
+                  <br>
+                  <p>Angle:</p>
+                  <input type="range" class = "angle-slider"id="9020" min="0" max="360" step="10" value="0">
+                  <span class="angle-span" id="angle-9020"></span>
+              </div>
+            </div>
+            <div class="controls">
+                <button class="control-button" id="start">Start</button>
+                <button class="control-button" id="pause">Pause</button>
+                <button class="control-button" id="reset">Stop and Reset</button>
+            </div>
+          </div>
+          
+          <canvas id="canvas" width="950" height="700"></canvas>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
+
+
+
+
+

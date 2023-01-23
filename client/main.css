@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: rgb(43, 112, 250);
+}
+
+canvas{
+    margin-right: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    place-items: center;
+    margin: auto;
+    max-width: 100vw;
+    
+}
+
+.side-panel{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    place-items: center;
+    margin: auto;
+    box-shadow: 0px 5px 10px 3px rgba(209, 209, 209, 0.639);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.config{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    place-items: center;
+    margin: auto;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pendulum-config{
+    width: 250px;
+    height: 170px;
+    border: 2px solid rgb(141, 142, 142);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pendulum-config input[type='range'] {
+    float: left;
+}
+
+
+.control-button {
+  background: rgb(43, 112, 250);
+  border-radius: 999px;
+  box-shadow: rgb(43, 112, 250) 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin: 10px;
+}
+
+.control-button:disabled{
+    background: rgba(43, 112, 250, 0.59);
+    pointer-events: none;
+}
+
+.control-button:active{
+    background: rgb(12, 91, 248);
+}
+
+
+h1{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px
+}
+
+h2{
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+
+#blue::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    margin-right: 10px;
+  }
+
+#orange::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    margin-right: 10px;
+}
+
+#green::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-right: 10px;
+}
+
+#purple::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    margin-right: 10px;
+}
+
+#red::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(109, 109, 109)
+}
+
+
+  
+
