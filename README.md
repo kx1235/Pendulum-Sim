@@ -2,6 +2,8 @@
 
 <https://vimeo.com/791967700/1435ba523b>
 
+**DEFINITION: A collision is considered close contact between any two pendulum balls (not necessarily between stems). Cooler simulation possibilities :)**
+
 # Documentation: Pendulum Simulator
 
 **By: Kenneth Xu**
@@ -20,8 +22,6 @@ The pendulum simulator allows users to configure and simulate the movement of 5 
 4. Stop and reset the simulation (will reset pendulums to their original properties)
 
 When a collision is close to occuring, all pendulums will freeze in place and the simulation will reset and restart after 5 seconds. 
-
-**DEFINITION: A collision is considered close contact between any two pendulum balls (not necessarily between stems).**
 
 **Getting Started**
 
